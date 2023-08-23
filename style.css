@@ -1,0 +1,48 @@
+* {
+    margin: 0;    
+}
+body {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+.blackBg {
+    display: none;
+    position: absolute;
+    background-color: #00000075;
+    width: 100%;
+    height: 100%;
+}
+.showBlackBg {
+    display: block;
+}
+
+main {
+    position: relative;
+    width: 720px;
+    height: 500px;
+    border: 1px solid black;
+}
+#settingBtn {
+    position: absolute; right: 5px; top: 5px; width: 45px;
+}
+.selectBlock {
+    background-color: blue;
+    visibility: hidden;
+    top: 20%;
+    left: 20%;
+    position: absolute;
+    width: 400px;
+    height: 80px;
+    display: flex;
+}
+.selectBlock>button {
+    width: 50px;
+    height: 30px;
+    margin: 10px;
+}
+.showSelectBlock {
+    visibility: visible;
+}
